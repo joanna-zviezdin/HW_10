@@ -1,0 +1,45 @@
+    1  git config --global user.name "Joanna Zviezdin"
+    2  git config --global user.email "joanna.turkiewicz@o2.pl"
+    3  git clone https://github.com/joanna-zviezdin/HW_10.git
+    4  cd /d/Asia/GO-IT\ Kurs\ Tester/RepozytoriumGit/HW_10
+    5  ls
+    6  touch text_ignore.txt
+    7  echo "text_ignore.txt" >> .gitignore
+    8  echo "\ntext_ignore.txt" >> .gitignore
+    9  [200~
+   10  echo "" >> text_ignore.txt
+   11  echo "text_ignore.txt" >> text_ignore.txt 
+   12  echo "" >> text_ignore.txt
+   13  echo "" >> gitignore
+   14  echo "" >> .gitignore
+   15  echo "text_ignore.txt" >> .gitignore 
+   16  git status
+   17  git add *
+   18  git commit -m "add string to .gitignore file"
+   19  git add
+   20  git status
+   21  git add .
+   22  git commit -m "add string to .gitignore file"
+   23  touch main_test.txt
+   24  /d/Asia/GO-IT\ Kurs\ Tester/RepozytoriumGit/HW_10
+   25  /d/Asia/GO-IT Kurs Tester/RepozytoriumGit/HW_10 touch main_test.txt
+   26  cd /d/Asia/GO-IT\ Kurs\ Tester/RepozytoriumGit/HW_10
+   27  touch main_test.txt
+   28  git add .
+   29  git add *
+   30  git commit -m "added main_test.txt file"
+   31  git checkout -b develop
+   32  touch develop_test.txt
+   33  git add *
+   34  git commit -m "added develop_test.txt file"
+   35  echo "some changes" >> develop_test.txt
+   36  git status
+   37  add git *
+   38  add git .
+   39  git add *
+   40  git commit -m "added changes to develop_test.txt file"
+   41  git checkout main
+   42  git merge develop
+   43  git commit -m "merged develop branch to main"
+   44  git log
+   45  history > command_list.csv
